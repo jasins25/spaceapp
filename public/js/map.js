@@ -27,7 +27,12 @@ function placeMarker(latLng, map) {
     var marker = new google.maps.Marker({
         position: latLng,
         map: map,
-        draggable: true
+        draggable: true,
+        icon: {
+            url: "assets/images/solarPanel.png", // url
+            scaledSize: new google.maps.Size(50, 50), // scaled size
+            anchor: new google.maps.Point(25, 25) // anchor
+        }
     });
     markerCount++;
     var infowindow = new google.maps.InfoWindow({

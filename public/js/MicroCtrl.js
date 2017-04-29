@@ -4,7 +4,7 @@
     
     function MicroCtrl($http, $scope) {
         var vm = this;
-        
+
 
     }
 

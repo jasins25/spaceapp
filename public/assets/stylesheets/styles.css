@@ -1,0 +1,23 @@
+.wire-frame,/* .solar-panel,*/ .meteo-data, .map, .dashboard {
+  border: 5px solid black; }
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0; }
+
+#map {
+  height: 50vh; }
+
+.solar-panel {
+  min-height: 80vh; 
+}
+
+.meteo-data {
+  min-height: 15vh; }
+
+.map {
+  min-height: 50vh; }
+
+.dashboard {
+  min-height: 15vh; }

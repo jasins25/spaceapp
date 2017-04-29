@@ -18,16 +18,16 @@
                 <p class="center-align">Choose your panel</p>
                 <div class="solar-panel">
                     <div class="row">
-                        
-                          <div class="card">
+
+                        <div class="card">
                             <div class="card-content">
-                              <p>This solar panel is mid-priced and has an efficiency of 20%.</p>
+                                <p>This solar panel is mid-priced and has an efficiency of 20%.</p>
                             </div>
                             <div class="card-action">
-                              <a href="#">Panel A</a>
+                                <a href="#">Panel A</a>
                             </div>
-                          </div>
-                        
+                        </div>
+
                     </div>
                 </div>
             </div>
@@ -43,33 +43,36 @@
                 </div>
 
                 <div class="row">
-                    <div class="col s12">
-                        <h3 class="center-align">MAP</h3>
+                    <div class="col s12 map-container">
+                        <div id="floating-panel">
+                            <input onclick="clearMarkers();" type=button value="Hide Markers">
+                            <input onclick="showMarkers();" type=button value="Show All Markers">
+                            <input onclick="deleteMarkers();" type=button value="Delete Markers">
+                        </div>
                         <div id="map"></div>
                     </div>
                 </div>
             </div>
-        </div>
 
-        <div class="row">
-            <div class="col s12">
-                <h3 class="center-align">SOLAR PANELS OUTPUT DASHBOARD</h3>
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center-align">SOLAR PANELS OUTPUT DASHBOARD</h3>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col s12">
+                    <div class="dashboard"></div>
+                </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col s12">
-                <div class="dashboard"></div>
-            </div>
-        </div>
-    </div>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzhvpqprw0YuSkIwAN2-2IAvDt6fJha6c&callback=initMap">
-    </script>
-    <script src="/bower_components/angular/angular.min.js"></script>
-    <script src="js/app.js"></script>
-    <script src="js/MacroCtrl.js"></script>
-    <script src="js/MicroCtrl.js"></script>
-    <script src="js/map.js"></script>
+        <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDzhvpqprw0YuSkIwAN2-2IAvDt6fJha6c&callback=initMap">
+        </script>
+        <script src="/bower_components/angular/angular.min.js"></script>
+        <script src="js/app.js"></script>
+        <script src="js/MacroCtrl.js"></script>
+        <script src="js/MicroCtrl.js"></script>
+        <script src="js/map.js"></script>
 </body>
 
 </html>

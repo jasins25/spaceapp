@@ -1,0 +1,970 @@
+[
+ {
+   "id": 1,
+   "unixTime": 1475229600,
+   "date": "2016-09-30",
+   "time": "00:00:00",
+   "sunset": 1812,
+   "sunsetText": ""
+ },
+ {
+   "id": 2,
+   "unixTime": 1475143200,
+   "date": "2016-09-29",
+   "time": "00:00:00",
+   "sunset": 1813,
+   "sunsetText": ""
+ },
+ {
+   "id": 3,
+   "unixTime": 1475056800,
+   "date": "2016-09-28",
+   "time": "00:00:00",
+   "sunset": 1814,
+   "sunsetText": ""
+ },
+ {
+   "id": 4,
+   "unixTime": 1474970400,
+   "date": "2016-09-27",
+   "time": "00:00:00",
+   "sunset": 1815,
+   "sunsetText": ""
+ },
+ {
+   "id": 5,
+   "unixTime": 1474884000,
+   "date": "2016-09-26",
+   "time": "00:00:00",
+   "sunset": 1815,
+   "sunsetText": ""
+ },
+ {
+   "id": 6,
+   "unixTime": 1474797600,
+   "date": "2016-09-25",
+   "time": "00:00:00",
+   "sunset": 1816,
+   "sunsetText": ""
+ },
+ {
+   "id": 7,
+   "unixTime": 1474711200,
+   "date": "2016-09-24",
+   "time": "00:00:00",
+   "sunset": 1817,
+   "sunsetText": ""
+ },
+ {
+   "id": 8,
+   "unixTime": 1474624800,
+   "date": "2016-09-23",
+   "time": "00:00:00",
+   "sunset": 1818,
+   "sunsetText": ""
+ },
+ {
+   "id": 9,
+   "unixTime": 1474538400,
+   "date": "2016-09-22",
+   "time": "00:00:00",
+   "sunset": 1819,
+   "sunsetText": ""
+ },
+ {
+   "id": 10,
+   "unixTime": 1474452000,
+   "date": "2016-09-21",
+   "time": "00:00:00",
+   "sunset": 1820,
+   "sunsetText": ""
+ },
+ {
+   "id": 11,
+   "unixTime": 1474365600,
+   "date": "2016-09-20",
+   "time": "00:00:00",
+   "sunset": 1821,
+   "sunsetText": ""
+ },
+ {
+   "id": 12,
+   "unixTime": 1474279200,
+   "date": "2016-09-19",
+   "time": "00:00:00",
+   "sunset": 1822,
+   "sunsetText": ""
+ },
+ {
+   "id": 13,
+   "unixTime": 1474192800,
+   "date": "2016-09-18",
+   "time": "00:00:00",
+   "sunset": 1823,
+   "sunsetText": ""
+ },
+ {
+   "id": 14,
+   "unixTime": 1474106400,
+   "date": "2016-09-17",
+   "time": "00:00:00",
+   "sunset": 1824,
+   "sunsetText": ""
+ },
+ {
+   "id": 15,
+   "unixTime": 1474020000,
+   "date": "2016-09-16",
+   "time": "00:00:00",
+   "sunset": 1825,
+   "sunsetText": ""
+ },
+ {
+   "id": 16,
+   "unixTime": 1473933601,
+   "date": "2016-09-15",
+   "time": "00:00:01",
+   "sunset": 1826,
+   "sunsetText": ""
+ },
+ {
+   "id": 17,
+   "unixTime": 1473847200,
+   "date": "2016-09-14",
+   "time": "00:00:00",
+   "sunset": 1826,
+   "sunsetText": ""
+ },
+ {
+   "id": 18,
+   "unixTime": 1473760800,
+   "date": "2016-09-13",
+   "time": "00:00:00",
+   "sunset": 1827,
+   "sunsetText": ""
+ },
+ {
+   "id": 19,
+   "unixTime": 1473674400,
+   "date": "2016-09-12",
+   "time": "00:00:00",
+   "sunset": 1828,
+   "sunsetText": ""
+ },
+ {
+   "id": 20,
+   "unixTime": 1473588000,
+   "date": "2016-09-11",
+   "time": "00:00:00",
+   "sunset": 1829,
+   "sunsetText": ""
+ },
+ {
+   "id": 21,
+   "unixTime": 1473501600,
+   "date": "2016-09-10",
+   "time": "00:00:00",
+   "sunset": 1830,
+   "sunsetText": ""
+ },
+ {
+   "id": 22,
+   "unixTime": 1473415201,
+   "date": "2016-09-09",
+   "time": "00:00:01",
+   "sunset": 1831,
+   "sunsetText": ""
+ },
+ {
+   "id": 23,
+   "unixTime": 1473328800,
+   "date": "2016-09-08",
+   "time": "00:00:00",
+   "sunset": 1832,
+   "sunsetText": ""
+ },
+ {
+   "id": 24,
+   "unixTime": 1473242400,
+   "date": "2016-09-07",
+   "time": "00:00:00",
+   "sunset": 1833,
+   "sunsetText": ""
+ },
+ {
+   "id": 25,
+   "unixTime": 1473156000,
+   "date": "2016-09-06",
+   "time": "00:00:00",
+   "sunset": 1834,
+   "sunsetText": ""
+ },
+ {
+   "id": 26,
+   "unixTime": 1473069600,
+   "date": "2016-09-05",
+   "time": "00:00:00",
+   "sunset": 1835,
+   "sunsetText": ""
+ },
+ {
+   "id": 27,
+   "unixTime": 1472983200,
+   "date": "2016-09-04",
+   "time": "00:00:00",
+   "sunset": 1835,
+   "sunsetText": ""
+ },
+ {
+   "id": 28,
+   "unixTime": 1472896800,
+   "date": "2016-09-03",
+   "time": "00:00:00",
+   "sunset": 1836,
+   "sunsetText": ""
+ },
+ {
+   "id": 29,
+   "unixTime": 1472810400,
+   "date": "2016-09-02",
+   "time": "00:00:00",
+   "sunset": 1837,
+   "sunsetText": ""
+ },
+ {
+   "id": 30,
+   "unixTime": 1472724000,
+   "date": "2016-09-01",
+   "time": "00:00:00",
+   "sunset": 1838,
+   "sunsetText": ""
+ },
+ {
+   "id": 31,
+   "unixTime": 1477908000,
+   "date": "2016-10-31",
+   "time": "00:00:00",
+   "sunset": 1749,
+   "sunsetText": ""
+ },
+ {
+   "id": 32,
+   "unixTime": 1477821600,
+   "date": "2016-10-30",
+   "time": "00:00:00",
+   "sunset": 1749,
+   "sunsetText": ""
+ },
+ {
+   "id": 33,
+   "unixTime": 1477735200,
+   "date": "2016-10-29",
+   "time": "00:00:00",
+   "sunset": 1750,
+   "sunsetText": ""
+ },
+ {
+   "id": 34,
+   "unixTime": 1477648800,
+   "date": "2016-10-28",
+   "time": "00:00:00",
+   "sunset": 1751,
+   "sunsetText": ""
+ },
+ {
+   "id": 35,
+   "unixTime": 1477562400,
+   "date": "2016-10-27",
+   "time": "00:00:00",
+   "sunset": 1751,
+   "sunsetText": ""
+ },
+ {
+   "id": 36,
+   "unixTime": 1477476000,
+   "date": "2016-10-26",
+   "time": "00:00:00",
+   "sunset": 1752,
+   "sunsetText": ""
+ },
+ {
+   "id": 37,
+   "unixTime": 1477389600,
+   "date": "2016-10-25",
+   "time": "00:00:00",
+   "sunset": 1752,
+   "sunsetText": ""
+ },
+ {
+   "id": 38,
+   "unixTime": 1477303200,
+   "date": "2016-10-24",
+   "time": "00:00:00",
+   "sunset": 1753,
+   "sunsetText": ""
+ },
+ {
+   "id": 39,
+   "unixTime": 1477216800,
+   "date": "2016-10-23",
+   "time": "00:00:00",
+   "sunset": 1754,
+   "sunsetText": ""
+ },
+ {
+   "id": 40,
+   "unixTime": 1477130400,
+   "date": "2016-10-22",
+   "time": "00:00:00",
+   "sunset": 1754,
+   "sunsetText": ""
+ },
+ {
+   "id": 41,
+   "unixTime": 1477044000,
+   "date": "2016-10-21",
+   "time": "00:00:00",
+   "sunset": 1755,
+   "sunsetText": ""
+ },
+ {
+   "id": 42,
+   "unixTime": 1476957600,
+   "date": "2016-10-20",
+   "time": "00:00:00",
+   "sunset": 1756,
+   "sunsetText": ""
+ },
+ {
+   "id": 43,
+   "unixTime": 1476871200,
+   "date": "2016-10-19",
+   "time": "00:00:00",
+   "sunset": 1756,
+   "sunsetText": ""
+ },
+ {
+   "id": 44,
+   "unixTime": 1476784800,
+   "date": "2016-10-18",
+   "time": "00:00:00",
+   "sunset": 1757,
+   "sunsetText": ""
+ },
+ {
+   "id": 45,
+   "unixTime": 1476698400,
+   "date": "2016-10-17",
+   "time": "00:00:00",
+   "sunset": 1758,
+   "sunsetText": ""
+ },
+ {
+   "id": 46,
+   "unixTime": 1476612000,
+   "date": "2016-10-16",
+   "time": "00:00:00",
+   "sunset": 1759,
+   "sunsetText": ""
+ },
+ {
+   "id": 47,
+   "unixTime": 1476525600,
+   "date": "2016-10-15",
+   "time": "00:00:00",
+   "sunset": 1759,
+   "sunsetText": ""
+ },
+ {
+   "id": 48,
+   "unixTime": 1476439200,
+   "date": "2016-10-14",
+   "time": "00:00:00",
+   "sunset": 1800,
+   "sunsetText": ""
+ },
+ {
+   "id": 49,
+   "unixTime": 1476352800,
+   "date": "2016-10-13",
+   "time": "00:00:00",
+   "sunset": 1801,
+   "sunsetText": ""
+ },
+ {
+   "id": 50,
+   "unixTime": 1476266400,
+   "date": "2016-10-12",
+   "time": "00:00:00",
+   "sunset": 1802,
+   "sunsetText": ""
+ },
+ {
+   "id": 51,
+   "unixTime": 1476180000,
+   "date": "2016-10-11",
+   "time": "00:00:00",
+   "sunset": 1803,
+   "sunsetText": ""
+ },
+ {
+   "id": 52,
+   "unixTime": 1476093600,
+   "date": "2016-10-10",
+   "time": "00:00:00",
+   "sunset": 1803,
+   "sunsetText": ""
+ },
+ {
+   "id": 53,
+   "unixTime": 1476007200,
+   "date": "2016-10-09",
+   "time": "00:00:00",
+   "sunset": 1804,
+   "sunsetText": ""
+ },
+ {
+   "id": 54,
+   "unixTime": 1475920800,
+   "date": "2016-10-08",
+   "time": "00:00:00",
+   "sunset": 1805,
+   "sunsetText": ""
+ },
+ {
+   "id": 55,
+   "unixTime": 1475834400,
+   "date": "2016-10-07",
+   "time": "00:00:00",
+   "sunset": 1806,
+   "sunsetText": ""
+ },
+ {
+   "id": 56,
+   "unixTime": 1475748000,
+   "date": "2016-10-06",
+   "time": "00:00:00",
+   "sunset": 1807,
+   "sunsetText": ""
+ },
+ {
+   "id": 57,
+   "unixTime": 1475661600,
+   "date": "2016-10-05",
+   "time": "00:00:00",
+   "sunset": 1808,
+   "sunsetText": ""
+ },
+ {
+   "id": 58,
+   "unixTime": 1475575200,
+   "date": "2016-10-04",
+   "time": "00:00:00",
+   "sunset": 1808,
+   "sunsetText": ""
+ },
+ {
+   "id": 59,
+   "unixTime": 1475488800,
+   "date": "2016-10-03",
+   "time": "00:00:00",
+   "sunset": 1809,
+   "sunsetText": ""
+ },
+ {
+   "id": 60,
+   "unixTime": 1475402400,
+   "date": "2016-10-02",
+   "time": "00:00:00",
+   "sunset": 1810,
+   "sunsetText": ""
+ },
+ {
+   "id": 61,
+   "unixTime": 1475316000,
+   "date": "2016-10-01",
+   "time": "00:00:00",
+   "sunset": 1811,
+   "sunsetText": ""
+ },
+ {
+   "id": 62,
+   "unixTime": 1480413600,
+   "date": "2016-11-29",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 63,
+   "unixTime": 1480327200,
+   "date": "2016-11-28",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 64,
+   "unixTime": 1480240800,
+   "date": "2016-11-27",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 65,
+   "unixTime": 1480154400,
+   "date": "2016-11-26",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 66,
+   "unixTime": 1480068000,
+   "date": "2016-11-25",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 67,
+   "unixTime": 1479981600,
+   "date": "2016-11-24",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 68,
+   "unixTime": 1479895200,
+   "date": "2016-11-23",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 69,
+   "unixTime": 1479808800,
+   "date": "2016-11-22",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 70,
+   "unixTime": 1479722400,
+   "date": "2016-11-21",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 71,
+   "unixTime": 1479636000,
+   "date": "2016-11-20",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 72,
+   "unixTime": 1479549600,
+   "date": "2016-11-19",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 73,
+   "unixTime": 1479463200,
+   "date": "2016-11-18",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 74,
+   "unixTime": 1479376800,
+   "date": "2016-11-17",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 75,
+   "unixTime": 1479290400,
+   "date": "2016-11-16",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 76,
+   "unixTime": 1479204000,
+   "date": "2016-11-15",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 77,
+   "unixTime": 1479117600,
+   "date": "2016-11-14",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 78,
+   "unixTime": 1479031200,
+   "date": "2016-11-13",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 79,
+   "unixTime": 1478944800,
+   "date": "2016-11-12",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 80,
+   "unixTime": 1478858400,
+   "date": "2016-11-11",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 81,
+   "unixTime": 1478772000,
+   "date": "2016-11-10",
+   "time": "00:00:00",
+   "sunset": 1745,
+   "sunsetText": ""
+ },
+ {
+   "id": 82,
+   "unixTime": 1478685600,
+   "date": "2016-11-09",
+   "time": "00:00:00",
+   "sunset": 1745,
+   "sunsetText": ""
+ },
+ {
+   "id": 83,
+   "unixTime": 1478599200,
+   "date": "2016-11-08",
+   "time": "00:00:00",
+   "sunset": 1745,
+   "sunsetText": ""
+ },
+ {
+   "id": 84,
+   "unixTime": 1478512800,
+   "date": "2016-11-07",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 85,
+   "unixTime": 1478426400,
+   "date": "2016-11-06",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 86,
+   "unixTime": 1478340000,
+   "date": "2016-11-05",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 87,
+   "unixTime": 1478253600,
+   "date": "2016-11-04",
+   "time": "00:00:00",
+   "sunset": 1747,
+   "sunsetText": ""
+ },
+ {
+   "id": 88,
+   "unixTime": 1478167200,
+   "date": "2016-11-03",
+   "time": "00:00:00",
+   "sunset": 1747,
+   "sunsetText": ""
+ },
+ {
+   "id": 89,
+   "unixTime": 1478080800,
+   "date": "2016-11-02",
+   "time": "00:00:00",
+   "sunset": 1748,
+   "sunsetText": ""
+ },
+ {
+   "id": 90,
+   "unixTime": 1477994400,
+   "date": "2016-11-01",
+   "time": "00:00:00",
+   "sunset": 1748,
+   "sunsetText": ""
+ },
+ {
+   "id": 91,
+   "unixTime": 1483178400,
+   "date": "2016-12-31",
+   "time": "00:00:00",
+   "sunset": 1754,
+   "sunsetText": ""
+ },
+ {
+   "id": 92,
+   "unixTime": 1483092000,
+   "date": "2016-12-30",
+   "time": "00:00:00",
+   "sunset": 1754,
+   "sunsetText": ""
+ },
+ {
+   "id": 93,
+   "unixTime": 1483005600,
+   "date": "2016-12-29",
+   "time": "00:00:00",
+   "sunset": 1753,
+   "sunsetText": ""
+ },
+ {
+   "id": 94,
+   "unixTime": 1482919200,
+   "date": "2016-12-28",
+   "time": "00:00:00",
+   "sunset": 1752,
+   "sunsetText": ""
+ },
+ {
+   "id": 95,
+   "unixTime": 1482832800,
+   "date": "2016-12-27",
+   "time": "00:00:00",
+   "sunset": 1752,
+   "sunsetText": ""
+ },
+ {
+   "id": 96,
+   "unixTime": 1482746400,
+   "date": "2016-12-26",
+   "time": "00:00:00",
+   "sunset": 1751,
+   "sunsetText": ""
+ },
+ {
+   "id": 97,
+   "unixTime": 1482660000,
+   "date": "2016-12-25",
+   "time": "00:00:00",
+   "sunset": 1751,
+   "sunsetText": ""
+ },
+ {
+   "id": 98,
+   "unixTime": 1482573600,
+   "date": "2016-12-24",
+   "time": "00:00:00",
+   "sunset": 1750,
+   "sunsetText": ""
+ },
+ {
+   "id": 99,
+   "unixTime": 1482487200,
+   "date": "2016-12-23",
+   "time": "00:00:00",
+   "sunset": 1750,
+   "sunsetText": ""
+ },
+ {
+   "id": 100,
+   "unixTime": 1482400800,
+   "date": "2016-12-22",
+   "time": "00:00:00",
+   "sunset": 1749,
+   "sunsetText": ""
+ },
+ {
+   "id": 101,
+   "unixTime": 1482314400,
+   "date": "2016-12-21",
+   "time": "00:00:00",
+   "sunset": 1749,
+   "sunsetText": ""
+ },
+ {
+   "id": 102,
+   "unixTime": 1482228000,
+   "date": "2016-12-20",
+   "time": "00:00:00",
+   "sunset": 1748,
+   "sunsetText": ""
+ },
+ {
+   "id": 103,
+   "unixTime": 1482141600,
+   "date": "2016-12-19",
+   "time": "00:00:00",
+   "sunset": 1748,
+   "sunsetText": ""
+ },
+ {
+   "id": 104,
+   "unixTime": 1482055200,
+   "date": "2016-12-18",
+   "time": "00:00:00",
+   "sunset": 1747,
+   "sunsetText": ""
+ },
+ {
+   "id": 105,
+   "unixTime": 1481968800,
+   "date": "2016-12-17",
+   "time": "00:00:00",
+   "sunset": 1747,
+   "sunsetText": ""
+ },
+ {
+   "id": 106,
+   "unixTime": 1481882400,
+   "date": "2016-12-16",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 107,
+   "unixTime": 1481796000,
+   "date": "2016-12-15",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 108,
+   "unixTime": 1481709600,
+   "date": "2016-12-14",
+   "time": "00:00:00",
+   "sunset": 1746,
+   "sunsetText": ""
+ },
+ {
+   "id": 109,
+   "unixTime": 1481623200,
+   "date": "2016-12-13",
+   "time": "00:00:00",
+   "sunset": 1745,
+   "sunsetText": ""
+ },
+ {
+   "id": 110,
+   "unixTime": 1481536800,
+   "date": "2016-12-12",
+   "time": "00:00:00",
+   "sunset": 1745,
+   "sunsetText": ""
+ },
+ {
+   "id": 111,
+   "unixTime": 1481450400,
+   "date": "2016-12-11",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 112,
+   "unixTime": 1481364000,
+   "date": "2016-12-10",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 113,
+   "unixTime": 1481277600,
+   "date": "2016-12-09",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 114,
+   "unixTime": 1481191200,
+   "date": "2016-12-08",
+   "time": "00:00:00",
+   "sunset": 1744,
+   "sunsetText": ""
+ },
+ {
+   "id": 115,
+   "unixTime": 1481104801,
+   "date": "2016-12-07",
+   "time": "00:00:01",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 116,
+   "unixTime": 1481018400,
+   "date": "2016-12-06",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 117,
+   "unixTime": 1480932000,
+   "date": "2016-12-05",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 118,
+   "unixTime": 1480845600,
+   "date": "2016-12-04",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 119,
+   "unixTime": 1480759200,
+   "date": "2016-12-03",
+   "time": "00:00:00",
+   "sunset": 1743,
+   "sunsetText": ""
+ },
+ {
+   "id": 120,
+   "unixTime": 1480672800,
+   "date": "2016-12-02",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ },
+ {
+   "id": 121,
+   "unixTime": 1480586400,
+   "date": "2016-12-01",
+   "time": "00:00:00",
+   "sunset": 1742,
+   "sunsetText": ""
+ }
+]

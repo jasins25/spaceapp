@@ -10,11 +10,12 @@
 
       
         rad = vm.radiation;
-        console.info(vm.radiation);
-        total = rad.map(function(rad){
-            return (rad.radiation * markerCount * 1 * 0.20);
+        console.info("rad",rad);
+
+        vm.totalEnergyOP = rad.map(function(rad){
+            return (rad.radiation * 0.2 * markerCount);
         });
-        console.log("total", total);
+        console.log("total", vm.totalEnergyOP);
 
     }
 

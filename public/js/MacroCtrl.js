@@ -9,6 +9,7 @@
         vm.sunrise = Service.sunrise;
         vm.sunset = Service.sunset;
 
+        vm.dailyData = [];  // holds average daily irradiance and maybe other data in the future
       
         rad = vm.radiation;
         console.info(vm.radiation);
@@ -153,11 +154,36 @@
 
         getAveDailyIrradiance();
         function getAveDailyIrradiance() {
-            var pastDate = A
+            var i, j = 0;
+            var instanceCount = 0; // holds number of irradiance data per day
+            var dailySum = 0; // irradiance sum per day
+            var pastDate = A[0].date;
+
+            console.log("past date " + pastDate);
+            console.log("current date " + pastDate);
             for(var i=0; i < A.length; i++){
 
                 console.log("i " + i);
-                console.log(A[i].date);
+                console.log("date " + A[i].date);
+                console.log("radiation " + A[i].radiation);
+                if ((pastDate != A[i].date) || ((A.length == i + 1))) {
+                    vm.dailyData[j] = dailySum / instanceCount;
+
+
+                    console.log("dailySum " + dailySum);
+                    console.log("instanceCount " + instanceCount);
+                    console.log("daily ave for j " + j + " is " + vm.dailyData[j]);
+
+                    instanceCount = 0;
+                    dailySum = 0;
+                    j++;
+                    pastDate = A[i].date;
+                }
+
+                dailySum += A[i].radiation;
+                instanceCount++;
+
+
             }
 
 

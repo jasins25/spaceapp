@@ -6,16 +6,22 @@
                 <div class="row">
                     <div class="card">
                         <div class="card-content">
-                            <p>Total Energy Output/Day = 9000kW</p>
+                            <p><strong>Total Max Energy Output/Day = <input type="number" ng-model="ctrl.maxWatts">watts</strong></p>
                         </div>
                         <div class="card-action">
-                            PLACEHOLDER FOR WARNING
+                            {{ctrl.warning}}
                         </div>
-                        <div class="card-action" ng-repeat="expenditure in ctrl.energyExpenditure track by $index ">
-                            {{expenditure.applianceName}} x {{expenditure.applianceMinutes}} = {{ctrl.expenditureTotal}}
+                        <div class="card-action"
+                             ng-repeat="expenditure in ctrl.energyExpenditure track by $index">
+                            {{expenditure.title}} ({{expenditure.watts}} watts) x
+                            <input ng-model="expenditure.duration" type="number">
+                            minutes = {{ctrl.calcWatts($index, ctrl.energyExpenditure[$index], expenditure.duration)}} watts
+                         </div>
+                        <div class="card-action" ng-show="!ctrl.energyExpenditure[0]">
+                            Nothing listed yet, please click an appliance on the right to get started.
                         </div>
                         <div class="card-action">
-                            {{ctrl.totalExpenditure}}
+                            <strong>Total energy expediture: {{ctrl.totalExpenditure()}} watts </strong>
                         </div>
                     </div>
                 </div>
@@ -29,20 +35,11 @@
                         APPLIANCE
                     </h3>
                     <div class="card">
-                        <div class="card-content" ng-click="ctrl.addToExpenditure()">
+                        <div class="card-content">
                             <p>Click to select appliance</p>
                         </div>
-                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
-                            Kettle - 400w per hour
-                        </div>
-                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
-                            Air conditioner - 800w per hour
-                        </div>
-                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
-                            Laptop - 100w per hour
-                        </div>
-                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
-                            Television - 800w per hour
+                        <div class="card-action" ng-click="ctrl.addToExpenditure(ctrl.applianceArray[$index])" ng-repeat="appliance in ctrl.applianceArray">
+                            {{appliance.title}} - {{appliance.watts}} watts per hour
                         </div>
                     </div>
                 </div>

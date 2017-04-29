@@ -1,3 +1,3 @@
 (function () {
-    angular.module("spaceApp", []);
+    angular.module("spaceApp", ['ui.router']);
 })();

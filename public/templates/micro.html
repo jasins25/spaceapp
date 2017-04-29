@@ -1,0 +1,66 @@
+<body ng-controller="MicroCtrl as ctrl">
+<div class="container">
+    <div class="row">
+        <div class="col s8">
+            <h3 class="center-align">MICRO THINGY</h3>
+            <div class="solar-panel">
+                <div class="row">
+                    <div class="card">
+                        <div class="card-content">
+                            <p>Total Energy Output/Day = 9000kW</p>
+                        </div>
+                        <div class="card-action">
+                            PLACEHOLDER FOR WARNING
+                        </div>
+                        <div class="card-action" ng-repeat="expenditure in ctrl.energyExpenditure track by $index ">
+                            {{expenditure.applianceName}} x {{expenditure.applianceMinutes}} = {{ctrl.expenditureTotal}}
+                        </div>
+                        <div class="card-action">
+                            {{ctrl.totalExpenditure}}
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="col s4">
+            <div class="row">
+                <div class="col s12">
+                    <h3 class="center-align">
+                        APPLIANCE
+                    </h3>
+                    <div class="card">
+                        <div class="card-content" ng-click="ctrl.addToExpenditure()">
+                            <p>Click to select appliance</p>
+                        </div>
+                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
+                            Kettle - 400w per hour
+                        </div>
+                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
+                            Air conditioner - 800w per hour
+                        </div>
+                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
+                            Laptop - 100w per hour
+                        </div>
+                        <div class="card-action" ng-click="ctrl.addToExpenditure()">
+                            Television - 800w per hour
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!--<div class="row">-->
+    <!--<div class="col s12">-->
+    <!--<h3 class="center-align">SOLAR PANELS OUTPUT DASHBOARD</h3>-->
+    <!--</div>-->
+    <!--</div>-->
+
+    <!--<div class="row">-->
+    <!--<div class="col s12">-->
+    <!--<div class="dashboard"></div>-->
+    <!--</div>-->
+    <!--</div>-->
+</div>

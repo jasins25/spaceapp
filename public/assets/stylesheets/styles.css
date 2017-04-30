@@ -1,7 +1,7 @@
 .wire-frame,
 .meteo-data,
-.map,
-.dashboard {
+.map/*,
+.dashboard */{
   border: 5px solid black;
 }
 

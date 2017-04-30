@@ -196,6 +196,34 @@ counting = markerCount;
 
         }
 
+        vm.activatedThin = false;
+        vm.activatedMono = false;
+        vm.activatedPoly = false;
+
+        vm.activateThin = function() {
+            if (!vm.activatedThin) {
+                vm.activatedThin = true;
+                vm.activatedMono = false;
+                vm.activatedPoly = false;
+            }
+        };
+
+        vm.activatePoly = function() {
+            if (!vm.activatedPoly) {
+                vm.activatedThin = false;
+                vm.activatedMono = false;
+                vm.activatedPoly = true;
+            }
+        };
+
+        vm.activateMono = function() {
+            if (!vm.activatedMono) {
+                vm.activatedThin = false;
+                vm.activatedMono = true;
+                vm.activatedPoly = false;
+            }
+        }
+
 
 
 

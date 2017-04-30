@@ -12,7 +12,7 @@
         vm.applianceArray = [
             {
                 title: "Kettle",
-                watts: 1800
+                watts: 1400
             },
             {
                 title: "Air-conditioner",

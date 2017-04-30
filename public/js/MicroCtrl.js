@@ -5,6 +5,7 @@
     function MicroCtrl($http, $scope) {
         var vm = this;
 
+
         vm.energyExpenditure =[];
         vm.wattsDuration = "";
 
@@ -33,7 +34,7 @@
 
         vm.calcWatts = function (idx, applianceObj, duration) {
             if (!duration) {
-                return 0;
+                duration = 0;
             }
             vm.energyExpenditure[idx].specificWatts = applianceObj.watts * (duration/60);
            return applianceObj.watts * (duration/60);
@@ -52,6 +53,10 @@
             }
             return totalArrayExpenditure;
         };
+
+        vm.delete = function (idx) {
+            vm.energyExpenditure.splice(idx, 1);
+        }
 
     }
 

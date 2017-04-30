@@ -2,7 +2,7 @@
     angular.module("spaceApp")
         .controller("MacroCtrl", MacroCtrl);
 
-    function MacroCtrl($http, $scope, Service) {
+    function MacroCtrl($http, $scope, Service, $rootscope) {
 
         var vm = this;
         vm.radiation = Service.radiation;
@@ -13,12 +13,16 @@
         rad = vm.radiation;
         console.info("rad",rad);
 
-        vm.totalEnergyOP = rad.map(function(rad){
-            return (rad.radiation * 0.2 * markerCount);
-        });
+        total = function(value) {
+            return (value.radiation * 0.2 * markerCount);
+        }
+
+
+
+        vm.totalEnergyOP = rad.map(total);
         console.log("total", vm.totalEnergyOP);
 
-
+counting = markerCount;
         vm.g = new JustGage({
             id: "gauge",
             value: getRandomInt(350, 980),
@@ -157,8 +161,8 @@
             var pastDate = A
             for(var i=0; i < A.length; i++){
 
-                console.log("i " + i);
-                console.log(A[i].date);
+                // console.log("i " + i);
+                // console.log(A[i].date);
             }
 
 

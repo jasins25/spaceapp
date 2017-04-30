@@ -7,19 +7,23 @@
                     <div class="card">
                         <div class="card-content">
                             <!--<p><strong>Total Max Energy Output/Day:-->
-                                <!--<input type="number" ng-model="ctrl.maxWatts">watts</strong></p>-->
-                            <strong>Total Max Energy Output/Day:</strong>
-                            <div class="input-field inline">
-                                <input id="maxOutput" type="number" class="validate" ng-model="ctrl.maxWatts">
-                                <label for="maxOutput" data-error="wrong" data-success="right" >watts</label>
-                            </div>
+                            <!--<input type="number" ng-model="ctrl.maxWatts">watts</strong></p>-->
+                            <span class="card-title">Total Max Energy Output/Day:
+                            <span class="input-field inline">
+                                <input id="maxOutput" type="number" ng-model="ctrl.maxWatts">
+                                <label for="maxOutput" data-error="wrong" data-success="right">watts</label>
+                            </span>
+                                </span>
                         </div>
-                        <div class="card-action">
-                            {{ctrl.warning}}
+                        <div class="card-action center-align teal" ng-show="!ctrl.warningFalse">
+                            <span class="white-text">{{ctrl.warning}}</span>
+                        </div>
+                        <div class="card-action center-align red" ng-show="ctrl.warningFalse">
+                            <span class="white-text">{{ctrl.warning}}</span>
                         </div>
                         <div class="card-action"
                              ng-repeat="expenditure in ctrl.energyExpenditure track by $index">
-                            {{expenditure.title}} ({{expenditure.watts}} watts) x
+                            {{expenditure.title}} ({{expenditure.watts}} watts/hr) x
                             <!--<input ng-model="expenditure.duration" type="number" value="0">-->
                             <div class="input-field inline">
                                 <input id="minutes" type="number" class="validate" ng-model="expenditure.duration">
@@ -31,7 +35,7 @@
                                  ng-click="ctrl.delete($index)">
                                 <i class="material-icons right">delete</i>
                             </div>
-                         </div>
+                        </div>
                         <div class="card-action" ng-show="!ctrl.energyExpenditure[0]">
                             Nothing listed yet, please click an appliance on the right to get started.
                         </div>
@@ -51,15 +55,16 @@
                     </h3>
                     <div class="card">
                         <div class="card-content">
-                            <p>Click to select appliance</p>
+                            <span class="card-title">Click to select appliance</span>
                         </div>
                         <!--<div class="card-action" ng-click="ctrl.addToExpenditure(ctrl.applianceArray[$index])" ng-repeat="appliance in ctrl.applianceArray">-->
-                            <!--{{appliance.title}} - {{appliance.watts}} watts per hour-->
+                        <!--{{appliance.title}} - {{appliance.watts}} watts per hour-->
                         <!--</div>-->
 
                         <div class="collection">
-                            <a class="collection-item" ng-click="ctrl.addToExpenditure(ctrl.applianceArray[$index])" ng-repeat="appliance in ctrl.applianceArray">
-                                {{appliance.title}} - {{appliance.watts}} watts per hour
+                            <a class="collection-item" ng-click="ctrl.addToExpenditure(ctrl.applianceArray[$index])"
+                               ng-repeat="appliance in ctrl.applianceArray">
+                                <strong>{{appliance.title}}:</strong> {{appliance.watts}} watts per hour
                             </a>
 
                         </div>

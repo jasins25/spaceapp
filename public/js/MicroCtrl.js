@@ -12,11 +12,11 @@
         vm.applianceArray = [
             {
                 title: "Kettle",
-                watts: 200
+                watts: 1800
             },
             {
                 title: "Air-conditioner",
-                watts: 250
+                watts: 1000
             },
             {
                 title: "Laptop",
@@ -24,7 +24,27 @@
             },
             {
                 title: "Television",
-                watts: 222
+                watts: 150
+            },
+            {
+                title: "Fan",
+                watts: 100
+            },
+            {
+                title: "Hairdryer",
+                watts: 150
+            },
+            {
+                title: "Fridge",
+                watts: 35
+            },
+            {
+                title:"Washing Machine",
+                watts: 1000
+            },
+            {
+                title: "Energy Saving Bulb",
+                watts: 60
             }
         ];
 
@@ -45,9 +65,11 @@
             for (var i = 0; i < vm.energyExpenditure.length; i++) {
                 totalArrayExpenditure += vm.energyExpenditure[i].specificWatts;
                 if (totalArrayExpenditure > vm.maxWatts) {
+                    vm.warningFalse=true;
                     vm.warning = "YOUR EXPENDITURE HAS EXCEEDED OMGZ";
                 }
                 else {
+                    vm.warningFalse=false;
                     vm.warning = "Your energy expenditure is doing fine!"
                 }
             }
